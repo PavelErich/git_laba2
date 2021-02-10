@@ -1,4 +1,5 @@
 #include <iostream>
+#include "calculator.h"
 using namespace std;
 
 int main() {
@@ -11,6 +12,7 @@ int main() {
         cout << "Введите 0 для выхода или" << endl;
         cout << "арифметическую операцию (+,-,*,...): ";
         cin >> sign;
+		if(sign == '+') result = add_m(a, b);
         system("cls");
         cout << "Результат (result =): " << result << endl;
     } while (sign != '0');
