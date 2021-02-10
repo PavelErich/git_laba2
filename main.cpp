@@ -29,6 +29,9 @@ int main() {
         case '%':
             result = mod_m(a, b);
             break;
+		case '^':
+			result = pow_m(a, b);
+			break;
         default:
             cout << "Вы ввели не правильную операцию!" << endl;
             break;

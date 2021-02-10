@@ -21,4 +21,8 @@ int div_m(int a, int b);
 //остаток a от b
 int mod_m(int a, int b);
 
+//Функция возведения в степень возвращает целочисленный результат
+//a в степени b
+int pow_m(int a, int b);
+
 #endif /* CALCULATOR_H */
